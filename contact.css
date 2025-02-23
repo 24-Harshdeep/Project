@@ -1,0 +1,117 @@
+
+body {
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:0;
+    background-color:#ffffff;
+}
+ header {
+    display:felx;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: #4be2db;
+    border-bottom:1px solid #ddd ;
+ }
+ .logo {
+    font-size:24px;
+    font-weight:bold;
+    color: #000;
+ }
+  nav a {
+    margin-right:30px;
+    text-decoration: none;
+    color:#333;
+  }
+
+.contact-btn{
+    background-color: #2a615c;
+    border: none;
+    padding: 8pxx 15px;
+    cursor:pointer;
+    font-size: 16px;
+    border-radius:5px;
+}
+.contact-container{
+    text-align:center;
+    padding: 50px;
+}
+h1 {
+    font-size: 32px;
+}
+p{
+    color: #46817c;
+}
+form {
+    max-width: 500px;
+    margin: auto;
+    display:flex;
+    flex-direction: column;
+    gap: 15px;
+}
+input, textarea {
+    width:100%;
+    padding: 10px;
+    border: 1px solid #267066;
+}
+.checkbox-container{
+    display: flex;
+    align-items: center;
+}
+.submit-btn {
+background-color:#389b9e ;
+border:none;
+padding : 10px;
+cursor: pointer;
+font-size: 16px;
+border-radius: 5px;
+}
+footer {
+    background-color: #111;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.footer-section {
+    width: 200px;
+}
+.footer-section h3{
+    margin-bottom: 10px;
+}
+.footer-section ul{
+    list-style: none;
+    padding: 0;
+}
+.footer-section ul li a{
+    text-decoration: none;
+    color: #bbb;
+    font-size: 14px ;
+}
+.newsletter input {
+    padding: 8px;
+    width:100%;
+    margin-top: 5px;
+    border:none;
+    border-radius: 5px;
+}
+.subscribe-btn{
+    background-color: rgb(0, 225, 255);
+     border: none;
+     padding: 10px;
+     cursor:pointer;
+     font-size: 14px;
+     border-radius: 5px;
+     margin-top: 5px ;
+}
+.footer-bottom {
+    text-align: center;
+    width: 250;
+    margin-top: 20px;
+}
+.footer-bottom a{
+    color: #bbb;
+    text-decoration: none;
+    margin: 0 10px;
+}
